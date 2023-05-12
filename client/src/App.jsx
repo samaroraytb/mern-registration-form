@@ -22,6 +22,7 @@ function App() {
         }
       })
       const data = await response.json()
+      console.log(data)
       updateMsg(data)
       updateEmail('')
       updatePassword('')
